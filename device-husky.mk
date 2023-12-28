@@ -15,7 +15,6 @@
 #
 
 TARGET_KERNEL_DIR ?= device/google/shusky-kernel
-TARGET_BOARD_KERNEL_HEADERS := device/google/shusky-kernel/kernel-headers
 
 LOCAL_PATH := device/google/shusky
 

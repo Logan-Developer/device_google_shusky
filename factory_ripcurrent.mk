@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-TARGET_LINUX_KERNEL_VERSION := 5.15
-
 $(call inherit-product, device/google/zuma/factory_common.mk)
 $(call inherit-product, device/google/shusky/device-ripcurrent.mk)
 include device/google/shusky/audio/ripcurrent/factory-audio-tables.mk
